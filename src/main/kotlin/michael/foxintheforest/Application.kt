@@ -11,8 +11,8 @@ import org.springframework.context.annotation.Bean
 class Application {
     private val log = LoggerFactory.getLogger(Application::class.java)
 
-    @Autowired
-    private lateinit var game: Game
+    //@Autowired
+    //private lateinit var game: Game
 
     @Bean
     fun init() = CommandLineRunner {
