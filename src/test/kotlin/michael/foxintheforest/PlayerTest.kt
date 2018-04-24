@@ -13,8 +13,8 @@ class PlayerTest {
                 BasicLeadCardStrategy(),
                 BasicFollowCardStrategy())
         val card = Card(2, Suit.Key)
-        player.receiveCard(card)
-        assertThat(player.hand).contains(card)
-        assertThat(player.hand).hasSize(2)
+        val p = player.receiveCard(card)
+        assertThat(p.hand).contains(card)
+        assertThat(p.hand).hasSize(2)
     }
 }

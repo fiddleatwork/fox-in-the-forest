@@ -10,7 +10,7 @@
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
-      <module name="fox-in-the-forest" target="8" />
+      <module name="fox-in-the-forest" target="10" />
     </bytecodeTargetLevel>
   </component>
 </project>

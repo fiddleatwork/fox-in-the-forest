@@ -5,8 +5,8 @@ import java.util.*
 data class Player(val hand: List<Card>,
                   val tricks: Int,
                   val score: Int,
-                  val leadCardStrategy: LeadCardStrategy,
-                  val followCardStrategy: FollowCardStrategy) {
+                  private val leadCardStrategy: LeadCardStrategy,
+                  private val followCardStrategy: FollowCardStrategy) {
 
 
     fun receiveCard(card: Card): Player {
