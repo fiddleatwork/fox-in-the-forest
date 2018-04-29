@@ -2,15 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="59a91fc8-fdb6-4f8a-808f-467984bdde79" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/kotlin/michael/foxintheforest/BasicFollowCardStrategyTest.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/kotlin/michael/foxintheforest/BasicLeadCardStrategyTest.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/kotlin/michael/foxintheforest/DeckTest.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/cards.csv" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fox-in-the-forest.iml" beforeDir="false" afterPath="$PROJECT_DIR$/fox-in-the-forest.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/michael/foxintheforest/Player.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/michael/foxintheforest/Player.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/kotlin/michael/foxintheforest/PlayerTest.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/kotlin/michael/foxintheforest/PlayerTest.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/michael/foxintheforest/Deck.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/michael/foxintheforest/Deck.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/michael/foxintheforest/Round.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/michael/foxintheforest/Round.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/kotlin/michael/foxintheforest/BasicFollowCardStrategyTest.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/kotlin/michael/foxintheforest/BasicFollowCardStrategyTest.kt" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -25,8 +23,8 @@
       <file leaf-file-name="Player.kt" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/kotlin/michael/foxintheforest/Player.kt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="18">
-              <caret line="11" column="8" selection-start-line="11" selection-start-column="8" selection-end-line="11" selection-end-column="8" />
+            <state relative-caret-position="72">
+              <caret line="4" column="17" selection-start-line="4" selection-start-column="17" selection-end-line="4" selection-end-column="17" />
             </state>
           </provider>
         </entry>
@@ -43,20 +41,32 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="LeadCardStrategy.kt" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/kotlin/michael/foxintheforest/LeadCardStrategy.kt">
+      <file leaf-file-name="Round.kt" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/kotlin/michael/foxintheforest/Round.kt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="36">
-              <caret line="2" column="26" selection-start-line="2" selection-start-column="10" selection-end-line="2" selection-end-column="26" />
+            <state relative-caret-position="126">
+              <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="23" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="BasicLeadCardStrategy.kt" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/kotlin/michael/foxintheforest/BasicLeadCardStrategy.kt">
+      <file leaf-file-name="Deck.kt" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/kotlin/michael/foxintheforest/Deck.kt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="36">
-              <caret line="2" column="27" selection-start-line="2" selection-start-column="6" selection-end-line="2" selection-end-column="27" />
+            <state relative-caret-position="-211">
+              <caret line="7" column="27" selection-start-line="7" selection-start-column="27" selection-end-line="7" selection-end-column="27" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="DeckTest.kt" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/test/kotlin/michael/foxintheforest/DeckTest.kt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="167">
+              <caret line="25" column="16" lean-forward="true" selection-start-line="25" selection-start-column="16" selection-end-line="25" selection-end-column="19" />
+              <folding>
+                <element signature="e#32#103#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -73,15 +83,6 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="FollowCardStrategy.kt" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/kotlin/michael/foxintheforest/FollowCardStrategy.kt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="36">
-              <caret line="2" column="28" selection-start-line="2" selection-start-column="10" selection-end-line="2" selection-end-column="28" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="BasicFollowCardStrategy.kt" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/kotlin/michael/foxintheforest/BasicFollowCardStrategy.kt">
           <provider selected="true" editor-type-id="text-editor">
@@ -91,11 +92,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="BasicFollowCardStrategyTest.kt" pinned="false" current-in-tab="true">
+      <file leaf-file-name="BasicFollowCardStrategyTest.kt" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/kotlin/michael/foxintheforest/BasicFollowCardStrategyTest.kt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="179">
-              <caret line="32" column="22" selection-start-line="32" selection-start-column="22" selection-end-line="32" selection-end-column="22" />
+            <state relative-caret-position="114">
+              <caret line="42" column="20" selection-start-line="42" selection-start-column="16" selection-end-line="42" selection-end-column="21" />
               <folding>
                 <element signature="e#32#118#0" expanded="true" />
               </folding>
@@ -116,7 +117,7 @@
         <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="252">
-              <caret line="20" column="30" selection-start-line="20" selection-start-column="28" selection-end-line="20" selection-end-column="30" />
+              <caret line="20" column="30" selection-start-line="20" selection-start-column="30" selection-end-line="20" selection-end-column="30" />
             </state>
           </provider>
         </entry>
@@ -141,6 +142,7 @@
       <find>1.8</find>
       <find>8</find>
       <find>stdlib</find>
+      <find>ø</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -153,10 +155,8 @@
         <option value="$PROJECT_DIR$/src/main/kotlin/michael/foxintheforest/Suit.kt" />
         <option value="$PROJECT_DIR$/src/main/kotlin/michael/foxintheforest/Game.kt" />
         <option value="$PROJECT_DIR$/src/main/kotlin/michael/foxintheforest/Hand.kt" />
-        <option value="$PROJECT_DIR$/src/main/kotlin/michael/foxintheforest/Deck.kt" />
         <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/src/main/kotlin/michael/foxintheforest/Application.kt" />
-        <option value="$PROJECT_DIR$/src/main/kotlin/michael/foxintheforest/Round.kt" />
         <option value="$PROJECT_DIR$/src/main/kotlin/michael/foxintheforest/Strategy.kt" />
         <option value="$PROJECT_DIR$/src/main/kotlin/michael/foxintheforest/LeadCardStrategy.kt" />
         <option value="$PROJECT_DIR$/src/main/kotlin/michael/foxintheforest/FollowCardStrategy.kt" />
@@ -165,9 +165,13 @@
         <option value="$PROJECT_DIR$/src/main/kotlin/michael/foxintheforest/BasicFollowCardStrategy.kt" />
         <option value="$PROJECT_DIR$/src/main/kotlin/michael/foxintheforest/Player.kt" />
         <option value="$PROJECT_DIR$/src/test/kotlin/michael/foxintheforest/BasicLeadCardStrategyTest.kt" />
-        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/test/kotlin/michael/foxintheforest/PlayerTest.kt" />
         <option value="$PROJECT_DIR$/src/test/kotlin/michael/foxintheforest/BasicFollowCardStrategyTest.kt" />
+        <option value="$PROJECT_DIR$/src/test/resources/cards.csv" />
+        <option value="$PROJECT_DIR$/src/main/kotlin/michael/foxintheforest/Round.kt" />
+        <option value="$PROJECT_DIR$/src/main/kotlin/michael/foxintheforest/Deck.kt" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/test/kotlin/michael/foxintheforest/DeckTest.kt" />
       </list>
     </option>
   </component>
@@ -283,6 +287,13 @@
               <item name="kotlin" type="462c0819:PsiDirectoryNode" />
               <item name="foxintheforest" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="fox-in-the-forest" type="b2602c69:ProjectViewProjectNode" />
+              <item name="fox-in-the-forest" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -326,7 +337,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.All in fox-in-the-forest">
+  <component name="RunManager" selected="JUnit.DeckTest.should get top card">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
     </configuration>
@@ -350,7 +361,7 @@
       </option>
       <patterns />
     </configuration>
-    <configuration name="BasicFollowCardStrategyTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="BasicFollowCardStrategyTest.should throw off if trick cannot be won" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="fox-in-the-forest" />
       <extension name="coverage">
         <pattern>
@@ -362,30 +373,7 @@
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="michael.foxintheforest" />
       <option name="MAIN_CLASS_NAME" value="michael.foxintheforest.BasicFollowCardStrategyTest" />
-      <option name="METHOD_NAME" />
-      <option name="TEST_OBJECT" value="class" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <patterns />
-    </configuration>
-    <configuration name="BasicFollowCardStrategyTest.should take trick by playing higher suited card" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="fox-in-the-forest" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="michael.foxintheforest.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="michael.foxintheforest" />
-      <option name="MAIN_CLASS_NAME" value="michael.foxintheforest.BasicFollowCardStrategyTest" />
-      <option name="METHOD_NAME" value="should take trick by playing higher suited card" />
+      <option name="METHOD_NAME" value="should throw off if trick cannot be won" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -396,7 +384,7 @@
       </option>
       <patterns />
     </configuration>
-    <configuration name="BasicFollowCardStrategyTest.should take trick by playing lowest trump card" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="DeckTest.should create deck" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="fox-in-the-forest" />
       <extension name="coverage">
         <pattern>
@@ -407,8 +395,8 @@
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="michael.foxintheforest" />
-      <option name="MAIN_CLASS_NAME" value="michael.foxintheforest.BasicFollowCardStrategyTest" />
-      <option name="METHOD_NAME" value="should take trick by playing lowest trump card" />
+      <option name="MAIN_CLASS_NAME" value="michael.foxintheforest.DeckTest" />
+      <option name="METHOD_NAME" value="should create deck" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -419,7 +407,7 @@
       </option>
       <patterns />
     </configuration>
-    <configuration name="PlayerTest.receiveCard" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="DeckTest.should deal card to player" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="fox-in-the-forest" />
       <extension name="coverage">
         <pattern>
@@ -430,8 +418,31 @@
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="michael.foxintheforest" />
-      <option name="MAIN_CLASS_NAME" value="michael.foxintheforest.PlayerTest" />
-      <option name="METHOD_NAME" value="receiveCard" />
+      <option name="MAIN_CLASS_NAME" value="michael.foxintheforest.DeckTest" />
+      <option name="METHOD_NAME" value="should deal card to player" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
+    </configuration>
+    <configuration name="DeckTest.should get top card" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="fox-in-the-forest" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="michael.foxintheforest.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="michael.foxintheforest" />
+      <option name="MAIN_CLASS_NAME" value="michael.foxintheforest.DeckTest" />
+      <option name="METHOD_NAME" value="should get top card" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -530,18 +541,18 @@
     </configuration>
     <list>
       <item itemvalue="JUnit.All in fox-in-the-forest" />
-      <item itemvalue="JUnit.PlayerTest.receiveCard" />
-      <item itemvalue="JUnit.BasicFollowCardStrategyTest.should take trick by playing higher suited card" />
-      <item itemvalue="JUnit.BasicFollowCardStrategyTest" />
-      <item itemvalue="JUnit.BasicFollowCardStrategyTest.should take trick by playing lowest trump card" />
+      <item itemvalue="JUnit.BasicFollowCardStrategyTest.should throw off if trick cannot be won" />
+      <item itemvalue="JUnit.DeckTest.should create deck" />
+      <item itemvalue="JUnit.DeckTest.should deal card to player" />
+      <item itemvalue="JUnit.DeckTest.should get top card" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.DeckTest.should get top card" />
+        <item itemvalue="JUnit.DeckTest.should deal card to player" />
+        <item itemvalue="JUnit.DeckTest.should create deck" />
+        <item itemvalue="JUnit.BasicFollowCardStrategyTest.should throw off if trick cannot be won" />
         <item itemvalue="JUnit.All in fox-in-the-forest" />
-        <item itemvalue="JUnit.BasicFollowCardStrategyTest.should take trick by playing lowest trump card" />
-        <item itemvalue="JUnit.BasicFollowCardStrategyTest" />
-        <item itemvalue="JUnit.BasicFollowCardStrategyTest.should take trick by playing higher suited card" />
-        <item itemvalue="JUnit.PlayerTest.receiveCard" />
       </list>
     </recent_temporary>
   </component>
@@ -574,22 +585,17 @@
       <option name="project" value="LOCAL" />
       <updated>1524469972959</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="testing basic strategies (still in development)">
+      <created>1524577379603</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1524577379603</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="BasicFollowCardStrategyTest_should_take_trick_by_playing_higher_suited_card - 2018.04.24 at 10h 45m 31s.xml">
-      <configuration name="BasicFollowCardStrategyTest.should take trick by playing higher suited card" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="BasicFollowCardStrategyTest_should_take_trick_by_playing_higher_suited_card - 2018.04.24 at 14h 06m 05s.xml">
-      <configuration name="BasicFollowCardStrategyTest.should take trick by playing higher suited card" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="BasicFollowCardStrategyTest_should_take_trick_by_playing_higher_suited_card - 2018.04.24 at 14h 10m 52s.xml">
-      <configuration name="BasicFollowCardStrategyTest.should take trick by playing higher suited card" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="All_in_fox-in-the-forest - 2018.04.24 at 14h 17m 34s.xml">
-      <configuration name="All in fox-in-the-forest" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="PlayerTest_receiveCard - 2018.04.24 at 14h 20m 48s.xml">
       <configuration name="PlayerTest.receiveCard" configurationId="JUnit" />
     </history-entry>
@@ -608,9 +614,22 @@
     <history-entry file="All_in_fox-in-the-forest - 2018.04.24 at 14h 33m 21s.xml">
       <configuration name="All in fox-in-the-forest" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="BasicFollowCardStrategyTest_should_throw_off_if_trick_cannot_be_won - 2018.04.24 at 14h 57m 11s.xml">
+      <configuration name="BasicFollowCardStrategyTest.should throw off if trick cannot be won" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="DeckTest_should_create_deck - 2018.04.24 at 15h 56m 40s.xml">
+      <configuration name="DeckTest.should create deck" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="DeckTest_should_deal_card_to_player - 2018.04.24 at 16h 06m 10s.xml">
+      <configuration name="DeckTest.should deal card to player" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="DeckTest_should_get_top_card - 2018.04.24 at 16h 08m 45s.xml">
+      <configuration name="DeckTest.should get top card" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1295" height="828" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="SBT Console" order="7" />
@@ -645,16 +664,12 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="add files" />
     <MESSAGE value="adding to the design" />
-    <option name="LAST_COMMIT_MESSAGE" value="adding to the design" />
+    <MESSAGE value="testing basic strategies (still in development)" />
+    <option name="LAST_COMMIT_MESSAGE" value="testing basic strategies (still in development)" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
-        <line-breakpoint enabled="true" type="kotlin-line">
-          <url>file://$PROJECT_DIR$/src/test/kotlin/michael/foxintheforest/BasicFollowCardStrategyTest.kt</url>
-          <line>21</line>
-          <properties />
-        </line-breakpoint>
         <line-breakpoint enabled="true" type="kotlin-line">
           <url>file://$PROJECT_DIR$/src/test/kotlin/michael/foxintheforest/BasicFollowCardStrategyTest.kt</url>
           <line>37</line>
@@ -666,20 +681,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1386">
-          <caret line="77" column="31" selection-start-line="77" selection-start-column="25" selection-end-line="77" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/kotlin/michael/foxintheforest/Application.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="522">
-          <caret line="29" column="56" selection-start-line="29" selection-start-column="56" selection-end-line="29" selection-end-column="56" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/kotlin/michael/foxintheforest/Player.kt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="252">
@@ -938,24 +939,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/kotlin/michael/foxintheforest/Deck.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="72">
-          <caret line="4" selection-start-line="4" selection-end-line="4" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/kotlin/michael/foxintheforest/Suit.kt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="36">
           <caret line="2" column="11" selection-start-line="2" selection-start-column="11" selection-end-line="2" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/kotlin/michael/foxintheforest/Round.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="126">
-          <caret line="7" selection-start-line="7" selection-end-line="7" />
         </state>
       </provider>
     </entry>
@@ -990,20 +977,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="252">
-          <caret line="20" column="30" selection-start-line="20" selection-start-column="28" selection-end-line="20" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/kotlin/michael/foxintheforest/Player.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="18">
-          <caret line="11" column="8" selection-start-line="11" selection-start-column="8" selection-end-line="11" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/kotlin/michael/foxintheforest/PlayerTest.kt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="144">
@@ -1030,10 +1003,51 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/kotlin/michael/foxintheforest/BasicFollowCardStrategyTest.kt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="179">
-          <caret line="32" column="22" selection-start-line="32" selection-start-column="22" selection-end-line="32" selection-end-column="22" />
+        <state relative-caret-position="114">
+          <caret line="42" column="20" selection-start-line="42" selection-start-column="16" selection-end-line="42" selection-end-column="21" />
           <folding>
             <element signature="e#32#118#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/resources/cards.csv">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/kotlin/michael/foxintheforest/Round.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="252">
+          <caret line="20" column="30" selection-start-line="20" selection-start-column="30" selection-end-line="20" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/kotlin/michael/foxintheforest/Player.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="72">
+          <caret line="4" column="17" selection-start-line="4" selection-start-column="17" selection-end-line="4" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/kotlin/michael/foxintheforest/Deck.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-211">
+          <caret line="7" column="27" selection-start-line="7" selection-start-column="27" selection-end-line="7" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/kotlin/michael/foxintheforest/DeckTest.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="167">
+          <caret line="25" column="16" lean-forward="true" selection-start-line="25" selection-start-column="16" selection-end-line="25" selection-end-column="19" />
+          <folding>
+            <element signature="e#32#103#0" expanded="true" />
           </folding>
         </state>
       </provider>

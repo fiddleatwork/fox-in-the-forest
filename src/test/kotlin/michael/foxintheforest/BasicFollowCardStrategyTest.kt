@@ -38,4 +38,19 @@ class BasicFollowCardStrategyTest {
         val card = strategy.select(player, 0, Suit.Orange, Card(6, Suit.Moon))
         Assertions.assertThat(card).isEqualTo(expected)
     }
+
+    @Test
+    fun `should throw off if trick cannot be won`() {
+        val expected = Card(4, Suit.Orange)
+        val player = Player(listOf(
+                Card(5,Suit.Orange),
+                expected,
+                Card(6, Suit.Orange)),
+                0,
+                0,
+                BasicLeadCardStrategy(),
+                strategy)
+        val card = strategy.select(player, 0, Suit.Moon, Card(6, Suit.Key))
+        Assertions.assertThat(card).isEqualTo(expected)
+    }
 }
